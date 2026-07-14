@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IslamicPlatform.Application.Common
+{
+    //For Hadiths
+    public class PaginatedResult<T>
+    {
+        public IEnumerable<T> Data { get; set; }
+        public int Page { get; set; }
+        public int PageSize { get; set; }
+        public int TotalCount { get; set; }
+        public int TotalPages => (int)Math.Ceiling(TotalCount / (double)PageSize);
+        public bool HasNext => Page < TotalPages;
+        public bool HasPrevious => Page > 1;
+
+        public static PaginatedResult<T> Create(IEnumerable<T> data, int page, int pageSize, int totalCount)
+                => new() { Data = data, Page = page, PageSize = pageSize, TotalCount = totalCount };
+    }
+    
+}

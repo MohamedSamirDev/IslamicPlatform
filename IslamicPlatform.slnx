@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="IslamicPlatform.Api/IslamicPlatform.Api.csproj" />
+  <Project Path="IslamicPlatform.Application/IslamicPlatform.Application.csproj" />
+  <Project Path="IslamicPlatform.Domain/IslamicPlatform.Domain.csproj" />
+  <Project Path="IslamicPlatform.Infrastructure/IslamicPlatform.Infrastructure.csproj" />
+  <Project Path="IslamicPlatform.Tests/IslamicPlatform.Tests.csproj" Id="649f3019-e2ee-4f2b-bf87-a5841f16af3c" />
+</Solution>
