@@ -674,10 +674,9 @@ Before running the project, make sure you have the following installed:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/IslamicPlatform.git
+git clone https://github.com/MohamedSamirDev/IslamicPlatform.git
 
 cd IslamicPlatform
-```
 
 ---
 
@@ -830,13 +829,6 @@ You can include screenshots such as:
 
 ---
 
-# 🎥 Demo
-
-A complete walkthrough of the project is available here.
-
-> **Demo Video:** *(Add your Google Drive or YouTube link here.)*
-
----
 
 # 🚀 Future Improvements
 
@@ -929,7 +921,7 @@ Passionate about building scalable backend systems using modern Microsoft techno
 ### Connect with Me
 
 - 💼 LinkedIn: https://www.linkedin.com/in/mohamed-samir-4014a1311/
-- 💻 GitHub: https://github.com/
+- 💻 GitHub: https://github.com/MohamedSamirDev
 
 ---
 
